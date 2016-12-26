@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BDatePicker_Example' do
+  pod 'BDatePicker', :path => '../'
+
+  target 'BDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
