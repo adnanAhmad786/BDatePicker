@@ -6,19 +6,35 @@
 //  Copyright (c) 2016 Kautenja. All rights reserved.
 //
 
-import UIKit
+import BDatePicker
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController
+{
+    // label for displaying the currently selected date
+    @IBOutlet var dateLabel: UILabel!
+    
+    /**
+     Handles a change in the date picker, for this view
+     - parameters:
+       - newDate: the newly selected date (nil if clear is pressed)
+     */
+    func HandleDateDidChange(to newDate: Date?)
+    {
+        guard let date = newDate else
+        {
+            dateLabel.text = "nil"
+            return
+        }
+        
+        dateLabel.text = date.description
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    /**
+     Called when a user presses the button on this view to select a date
+     */
+    @IBAction func selectPressed()
+    {
+        let _ = BDatePicker.show(on:self, handledBy: HandleDateDidChange)
     }
 
 }
-
