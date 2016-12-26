@@ -38,4 +38,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit'
   s.dependency 'PopupDialog', '~> 0.5'
+  s.dependency 'FSCalendar'
 end
