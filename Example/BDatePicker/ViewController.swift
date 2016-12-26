@@ -8,8 +8,10 @@
 
 import BDatePicker
 
+// Main view controller for the example app
 class ViewController: UIViewController
 {
+    
     // label for displaying the currently selected date
     @IBOutlet var dateLabel: UILabel!
     
