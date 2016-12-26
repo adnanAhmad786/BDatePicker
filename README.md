@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/BDatePicker.svg?style=flat)](http://cocoapods.org/pods/BDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/BDatePicker.svg?style=flat)](http://cocoapods.org/pods/BDatePicker)
 
+## Screenshots
+
+![simulator screen shot dec 26 2016 11 04 04 am](https://cloud.githubusercontent.com/assets/2184469/21484160/455c07ba-cb5c-11e6-9173-ceaa88d17ea7.png)
+
+
 ## Features
 
 *   [ ] Custom Appearance
@@ -61,6 +66,7 @@ func HandleDateDidChange(newDate: Date?)
 ```
 
 see [ViewController](Example/BDatePicker/ViewController.swift) for a production example of how this might come together
+
 
 ## Author
 
