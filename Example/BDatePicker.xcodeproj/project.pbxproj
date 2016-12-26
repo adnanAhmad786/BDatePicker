@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0713EF48CC5E961ABB56C2DF /* Pods-BDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDatePicker_Tests/Pods-BDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B48F370D69ADF08F53F4F58 /* BDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BDatePicker.podspec; path = ../BDatePicker.podspec; sourceTree = "<group>"; };
+		0B48F370D69ADF08F53F4F58 /* BDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BDatePicker.podspec; path = ../BDatePicker.podspec; sourceTree = "<group>"; };
 		354F78185065303DD8FA9AF0 /* Pods-BDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDatePicker_Example/Pods-BDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* BDatePicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDatePicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6CB092AF7E5CA6B21C307656 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6CB092AF7E5CA6B21C307656 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		841479765E19B7CD453A7B9D /* Pods_BDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9059CAA2E16E9921032E0CED /* Pods-BDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDatePicker_Example/Pods-BDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9689034B933C7B59B7169375 /* Pods_BDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B85B172E2719509D4879A217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B85B172E2719509D4879A217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEB7F24538689AD3F5411967 /* Pods-BDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDatePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDatePicker_Tests/Pods-BDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
