@@ -8,7 +8,6 @@
 ## Features
 
 *   [ ] Custom Appearance
-*   [ ] Custom color list for selection
 *   [ ] Landscape support (all devices)
 
 
@@ -61,6 +60,7 @@ func HandleDateDidChange(newDate: Date?)
 }
 ```
 
+see [ViewController](Example/BDatePicker/ViewController.swift) for a production example of how this might come together
 
 ## Author
 
