@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDatePicker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.3'
   s.summary          = 'BDatePicker is a tool for quickly selecting a date from a wide range.'
 
 # This description is used to generate tags and improve search results.
