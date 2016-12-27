@@ -1,5 +1,6 @@
 # BDatePicker
 
+[![Swift Version](https://img.shields.io/badge/swift-3.0-orange.svg)](https://swift.org/)
 [![CI Status](http://img.shields.io/travis/Kautenja/BDatePicker.svg?style=flat)](https://travis-ci.org/Kautenja/BDatePicker)
 [![Version](https://img.shields.io/cocoapods/v/BDatePicker.svg?style=flat)](http://cocoapods.org/pods/BDatePicker)
 [![License](https://img.shields.io/cocoapods/l/BDatePicker.svg?style=flat)](http://cocoapods.org/pods/BDatePicker)
