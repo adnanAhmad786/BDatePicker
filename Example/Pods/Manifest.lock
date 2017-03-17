@@ -1,0 +1,22 @@
+PODS:
+  - BDatePicker (0.1.3):
+    - FSCalendar
+    - PopupDialog (~> 0.5)
+  - FSCalendar (2.7.3)
+  - PopupDialog (0.5.4)
+
+DEPENDENCIES:
+  - BDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  BDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BDatePicker: 1bfad7dceeea5481626bbcdfba67489d6309932c
+  FSCalendar: 574388d70778c22719eed9341653e1743b345573
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+
+PODFILE CHECKSUM: a36055106ecfcd777c9b0ed55bdbf0b99825525a
+
+COCOAPODS: 1.2.0.beta.3
